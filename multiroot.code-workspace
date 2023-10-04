@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "package-foo"
+		},
+		{
+			"path": "package-bar"
+		}
+	],
+	"settings": {
+		"python.testing.pytestArgs": [
+			"--rootdir",
+			"${workspaceFolder}/tests"
+		],
+		"python.testing.unittestEnabled": false,
+		"python.testing.pytestEnabled": true,
+		"python.testing.cwd": "${workspaceFolder}/tests",
+	}
+}
